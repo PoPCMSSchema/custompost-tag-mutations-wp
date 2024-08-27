@@ -4,5 +4,5 @@ services:
         autowire: true
         autoconfigure: true
 
-    PoPCMSSchema\PostTagMutations\TypeAPIs\PostTagTypeMutationAPIInterface:
-        class: \PoPCMSSchema\PostTagMutationsWP\TypeAPIs\PostTagTypeMutationAPI
+    PoPCMSSchema\CustomPostTagMutations\TypeAPIs\CustomPostTagTypeMutationAPIInterface:
+        class: \PoPCMSSchema\CustomPostTagMutationsWP\TypeAPIs\CustomPostTagTypeMutationAPI
